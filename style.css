@@ -1,0 +1,6 @@
+:root { color-scheme: light dark; }
+body { font: 16px/1.65 -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; color: #1b1b1f; background: #fff; }
+@media (prefers-color-scheme: dark) { body { color: #ececf1; background: #0b0b0f; } a { color: #7fb2ff; } }
+h1 { font-size: 1.8rem; line-height: 1.2; } h2 { font-size: 1.15rem; margin-top: 2rem; }
+nav { display: flex; gap: 1.2rem; margin-bottom: 2rem; font-weight: 600; } nav a { text-decoration: none; }
+.muted { opacity: .7; font-size: .9rem; } li { margin: .3rem 0; }
